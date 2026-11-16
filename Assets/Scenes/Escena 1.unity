@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 534012953}
-  - component: {fileID: 534012952}
+  - component: {fileID: 534012954}
   m_Layer: 0
   m_Name: DataManager
   m_TagString: Untagged
@@ -136,24 +136,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &534012952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534012951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b3e4426868033f4f8033c45870fb3bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DataManager
-  nombreUsuario: 
-  vitalidad: 10
-  fuerza: 5
-  destreza: 20
-  inteligencia: 40
-  experiencia: 0
 --- !u!4 &534012953
 Transform:
   m_ObjectHideFlags: 0
@@ -169,6 +151,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534012954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534012951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4934634a4ff88f6489db3f510d733951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DataManager2
+  playerName: 
+  playerPosition: {x: 0, y: 0, z: 0}
+  playerHealth: 0
+  playerExp: 0
 --- !u!1 &565904286
 GameObject:
   m_ObjectHideFlags: 0
